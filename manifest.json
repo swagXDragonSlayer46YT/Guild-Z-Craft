@@ -1,1 +1,28 @@
-
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2860",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "GuildZCraft",
+  "version": "0.0.1",
+  "author": "GuildZ",
+  "externalDeps": [],
+  "files": [
+    {
+      "projectID": 361579,
+      "fileID": 3245793,
+      "required": true
+    },
+    {
+      
+    }
+  ],
+  "overrides": "overrides"
+}
