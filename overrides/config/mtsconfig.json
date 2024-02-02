@@ -118,25 +118,15 @@
     },
     "packVehicleScales": {
       "value": {
-        "auweschveb": 1.0,
-        "auweschvebh": 1.0,
-        "auweschvebx": 1.0,
-        "auweschvebm": 1.0,
-        "mts": 1.0,
-        "iavm": 1.0,
-        "iav": 1.0
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
       },
       "comment": "Scale of all vehicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
     },
     "packSpeedFactors": {
       "value": {
-        "auweschveb": 1.0,
-        "auweschvebh": 1.0,
-        "auweschvebx": 1.0,
-        "auweschvebm": 1.0,
-        "mts": 1.0,
-        "iavm": 1.0,
-        "iav": 1.0
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
       },
       "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
     },
@@ -174,7 +164,7 @@
       "comment": "Whether or not velocity is ignored when calculating wheel damage."
     },
     "allowExternalDamage": {
-      "value": false,
+      "value": true,
       "comment": "Whether or not non-IV things can damage vehicles.  This is normally false, as external damage is a hassle for most people, but can be true if you want other mod's guns to be able to attack vehicles in addition to IV's."
     },
     "propellerDamageFactor": {
@@ -203,13 +193,8 @@
     },
     "packBulletDamageFactors": {
       "value": {
-        "auweschveb": 1.0,
-        "auweschvebh": 1.0,
-        "auweschvebx": 1.0,
-        "auweschvebm": 1.0,
-        "mts": 1.0,
-        "iavm": 1.0,
-        "iav": 1.0
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
       },
       "comment": "A mapping of pack-speciifc bullet damage factors.  These values will apply to all bullets in a pack when they hit something, be it a vehicle or entity."
     }
@@ -234,9 +219,6 @@
       "avgas": {
         "lava": 1.0,
         "gasoline": 1.0
-      },
-      "electricity": {
-        "lava": 1.0
       },
       "gasoline": {
         "lava": 1.0,
@@ -327,7 +309,6 @@
       "dye_magenta": "Chemical Magenta Dye",
       "tauonium": "Tauonium",
       "nitrogen": "Nitrogen Gas",
-      "plantoil": "Plant Oil",
       "tantalum_carbide": "Liquid Tantalum Carbide",
       "depleted_leb_248": "Molten Depleted LEB-248",
       "copper_nak": "Eutectic NaK-Copper Mixture",
@@ -464,7 +445,6 @@
       "polyvinyl_acetate": "Polyvinyl Acetate",
       "compressed_air": "Compressed Air",
       "lapis": "Molten Lapis",
-      "betterquesting.placeholder": "Placeholder",
       "steamcracked_butane": "Steam-Cracked Butane",
       "leu_235_fluoride": "Molten LEU-235 Fluoride",
       "molten.magnesium_diboride": "Molten Magnesium Diboride",
@@ -545,7 +525,6 @@
       "carbon": "Liquid Carbon",
       "len_236_fluoride_flibe": "Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel",
       "potassium_fluoride_solution": "Potassium Fluoride Solution",
-      "biodiesel": "Biodiesel",
       "acidic_enriched_naquadah_solution": "Acidic Enriched Naquadah Solution",
       "hypochlorous_acid": "Hypochlorous Acid",
       "magnesium": "Liquid Magnesium",
@@ -711,7 +690,6 @@
       "obsidian_nak_hot": "Hot Eutectic NaK-Obsidian Mixture",
       "slime_nak_hot": "Hot Eutectic NaK-Slime Mixture",
       "uranium_233": "Molten Uranium-233",
-      "potion": "Potion",
       "depleted_hecf_249_fluoride": "Molten Depleted HECf-249 Fluoride",
       "gasoline_premium": "High Octane Gasoline",
       "uranium_238": "Molten Uranium-238",
@@ -750,8 +728,8 @@
       "depleted_heu_235_fluoride_flibe": "Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel",
       "diborane": "Diborane",
       "severely_steamcracked_gas": "Severely Steam-Cracked Refinery Gas",
-      "ethanol": "Ethanol",
       "vinyl_acetate": "Vinyl Acetate",
+      "ethanol": "Ethanol",
       "len_236_fluoride": "Molten LEN-236 Fluoride",
       "duranium": "Liquid Duranium",
       "hea_242_fluoride_flibe": "Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel",
@@ -1010,7 +988,7 @@
       "annealed_copper": "Liquid Annealed Copper",
       "steam": "Steam",
       "depleted_heu_235_fluoride": "Molten Depleted HEU-235 Fluoride",
-      "creosote": "Creosote Oil",
+      "creosote": "Creosote",
       "terbium": "Molten Terbium",
       "promethium_147": "Molten Promethium-147",
       "cocoa_butter": "Cocoa Butter",

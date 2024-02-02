@@ -64,7 +64,7 @@
 			<itemStack>minecraft:iron_ingot</itemStack>
 		</input>
 		<output>
-			<itemStack>mw:steelingot</itemStack>
+			<itemStack>nuclearcraft:alloy;1;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="100" power ="10">

@@ -50,14 +50,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotAluminum</oreDict>
-		</input>
-		<output>
-			<itemStack>immersiveengineering:material;2;3</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotNaquadahEnriched</oreDict>
 		</input>
 		<output>

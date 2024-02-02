@@ -1,6 +1,0 @@
-{
-  "factory": "potion",
-  "duration": 30,
-  "amplifier": 2,
-  "potion": "minecraft:wither"
-}
