@@ -1,0 +1,15 @@
+{
+	"name": "sanity",            // Unique nutrient ID
+	"icon": "opencomputers:robot",   // Item drawn in nutrient GUI
+	"color": "ff0000",            // Hexadecimal color used to draw the nutrient bar
+	"decay": -2.5,                 // Override global decay multiplier (-100 to 100)
+	"enabled": true,             // Will this nutrient be loaded in-game
+	"food": {                     //
+		"oredict": [              // List of ore dictionary entries that are included in this nutrient
+		
+		],                        //
+		"items": [                // List of item IDs for foods that are included in this nutrient
+
+		]
+	}
+}
